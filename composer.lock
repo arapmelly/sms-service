@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2d061ba4fbd7dc14584bbf1add6d876",
+    "content-hash": "77f5a7432a6d19ab1e87428036bc8c19",
     "packages": [
         {
             "name": "africastalking/africastalking",
@@ -1706,6 +1706,46 @@
                 "lumen"
             ],
             "time": "2020-02-06T14:24:22+00:00"
+        },
+        {
+            "name": "lipisha/sdk",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lipisha/lipisha-php-sdk.git",
+                "reference": "ad47a7f408ddbbce5ebe3b3fd3b4760c34d1e8e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lipisha/lipisha-php-sdk/zipball/ad47a7f408ddbbce5ebe3b3fd3b4760c34d1e8e5",
+                "reference": "ad47a7f408ddbbce5ebe3b3fd3b4760c34d1e8e5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Lipisha": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lipisha Consortium Limited",
+                    "email": "api@lipisha.com"
+                }
+            ],
+            "description": "Lipisha Payments SDK",
+            "time": "2019-06-20T05:38:00+00:00"
         },
         {
             "name": "monolog/monolog",

@@ -7,7 +7,8 @@
     "require": {
         "php": "^7.2",
         "africastalking/africastalking": "^2.3",
-        "laravel/lumen-framework": "^6.0"
+        "laravel/lumen-framework": "^6.0",
+        "lipisha/sdk": "^1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.4",
