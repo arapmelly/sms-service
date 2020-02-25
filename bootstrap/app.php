@@ -21,7 +21,7 @@ $app = new Laravel\Lumen\Application(
     dirname(__DIR__)
 );
 
-$app->configure(database);
+$app->configure('database');
 
 $app->withFacades();
 
